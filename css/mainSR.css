@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: GIOVANNA;
+    src: url(../fonts/LCDCode-Regular.otf);
+}
+body{
+    background-color: darkseagreen;
+    font-family: GIOVANNA;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px)/16 * 9);
+    margin: 10px;
+    background-color: rgb(6, 54, 2);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgb(192, 199, 136);
+}
+.photo:hover {
+    transform: rotate(3deg) scale(1.27);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 100%
+}
+.photo1{
+    background-image: url(../img/img1.jpeg);
+}
+.photo2{
+    background-image: url(../img/img2.jpeg);
+}
+.photo3{
+    background-image: url(../img/img3.jpeg);
+}
+.photo4{
+    background-image: url(../img/img4.jpeg)
+}
